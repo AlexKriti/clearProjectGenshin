@@ -1,0 +1,808 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header img,
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
+div.rarity div {
+    text-align: left
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+div.container {
+    max-width: 1540px;
+    margin: auto;
+}
+
+header {
+    background-image: url(images/eventsbackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav a {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+div.nav-li {
+    display: flex;
+    width: 48.7%;
+    justify-content: space-between;
+    margin-right: 4.3%;
+}
+
+
+.intro {
+    color: #3A3C42;
+    font-weight: 500;
+    position: absolute;
+    left: 360px;
+    top: 198px;
+    font-size: 36px;
+}
+
+header nav a.main-logo {
+    content: url(images/Rectangle\ 144.svg);
+}
+
+/* v */
+div.smallmenu {
+    display: none;
+}
+
+/* v */
+div.second-footer {
+    display: none;
+}
+
+/* v */
+div.third-footer {
+    display: none;
+}
+
+/* v */
+div.smallmenu button {
+    background: none;
+    border: none;
+}
+
+/* v */
+div.container.special {
+    display: none;
+}
+
+main {
+    padding: 47px 0 198px;
+}
+
+main h2.name {
+    color: #3A3C42;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+div.main-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column.image {
+    display: flex;
+    flex-direction: column;
+}
+
+.column.image img {
+    position: relative;
+    left: -41px;
+    margin-bottom: 48px;
+    width: 548px;
+    max-height: 988px;
+}
+
+.column.image button {
+    background-image: url(images/bigback.png);
+    background-position: center;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 21px 212px;
+    font-family: 'Raleway';
+    border: none;
+    border-radius: 12px;
+    /* width: 91%; */
+}
+
+.column.self {
+    margin: 0 25px 0 59px;
+    position: relative;
+    top: 41px;
+}
+
+.column.self .rarity {
+    margin-bottom: 17px;
+}
+
+.column.self .rarity p {
+    padding-bottom: 2px;
+}
+
+.column.self .rarity p,
+.column.self .elem p,
+.column.self .weapon p {
+    text-align: left;
+    color: #3A3C42;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.column.self .elem p.sec,
+.column.self .weapon p.sec {
+    color: #8F8F8F;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.column.self .elem {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.column.self .elem div {
+    margin-right: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+div.g-column {
+    display: flex;
+    flex-direction: column;
+}
+
+div.general:first-child {
+    margin-right: 5px;
+}
+
+div.general {
+    width: 291px;
+    height: 96px;
+    background-image: url(images/bigback.png);
+    background-position: left;
+    display: flex;
+    padding: 5px 2px 7px 11px;
+    border-radius: 12px;
+    justify-content: space-between;
+    margin: 80px 0 140px;
+}
+
+div.general p {
+    text-align: left;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Raleway';
+}
+
+.detail-descript {
+    position: relative;
+    top: 41px;
+}
+
+.detail-descript section {
+    text-align: left;
+}
+
+.detail-descript section h3 {
+    color: #3A3C42;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.detail-descript section p {
+    color: #8F8F8F;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+section.character {
+    width: 368px;
+}
+
+section.appearence {
+    width: 370px;
+    margin: 59px 0 26px;
+}
+
+h3.character {
+    margin-bottom: 5px;
+}
+
+h3.develop {
+    margin-bottom: 8px;
+}
+
+div.plus-min {
+    margin: 80px 0 142px;
+    text-align: left;
+}
+
+div.plus-min h2 {
+    color: #3A3C42;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+div.plus-min h3 {
+    color: #3A3C42;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+section.feature.plus {
+    margin: 18px 0;
+}
+
+section.feature ul {
+    position: relative;
+    left: 30px;
+}
+
+div.container.another {
+    background-image: url(images/backelem.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+div.suit-Weapon {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.suit-Weapon h3 {
+    margin-bottom: 35px;
+    color: #3A3C42;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+}
+
+section.feature ul li {
+    list-style: disc;
+}
+
+div.weapon-pict,
+div.suit-pict {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.weapon-item {
+    margin-left: 20px;
+    width: 239px;
+    text-align: left;
+}
+
+div.weapon-item.no-marg,
+div.weapon-item.time-no-marg {
+    margin: 0;
+}
+
+div.weapon-item h4 {
+    color: #3A3C42;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+div.weapon-item p {
+    color: #3A3C42;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+div.best-weapon {
+    width: 761px;
+    display: inline-block;
+    margin-right: 150px;
+}
+
+div.best-suit {
+    width: 400px;
+    display: inline-block;
+}
+
+div.best-suit h4 {
+    color: #3A3C42;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+div.best-suit div.inside {
+    width: 194px;
+}
+
+div.suit-pict {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+html {
+    width: 100%;
+}
+
+.plus-min section {
+    max-width: 95%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 5 */
+footer {
+    background: #3A3C42;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+
+
+footer p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+footer .img-foot {
+    padding-top: 68px;
+}
+
+footer div.ul-wrap {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 91px;
+}
+
+div.text-ul {
+    margin: 58px 13% 0 4%;
+    width: 48.6%;
+}
+
+div.events.blocks img {
+    max-width: auto;
+}
+
+.region-back-pos {
+    background-position: center;
+}
+
+footer div.text p {
+    margin: auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+footer div.production {
+    margin-top: 71px;
+    margin-bottom: 64px;
+    max-width: 104px;
+}
+
+footer div.production :first-child {
+    margin-bottom: 113px;
+}
+
+.description {
+    margin: 91px auto 10px;
+    display: flex;
+    width: 70.7%
+}
+
+footer div.ul {
+    text-align: left;
+}
+
+.ul h5 {
+    margin-bottom: 6px;
+}
+
+.ul p {
+    margin-bottom: 10px;
+}
+
+/* v */
+div.smallmenu {
+    display: none;
+}
+
+/* v */
+div.second-footer {
+    display: none;
+}
+
+/* v */
+div.third-footer {
+    display: none;
+}
+
+/* v */
+div.smallmenu button {
+    background: none;
+    border: none;
+}
+
+/* v */
+div.container.special {
+    display: none;
+}
+
+/* v */
+footer h5 a {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+div.detail-descript section {
+    max-width: 100%;
+}
+
+section.feature li {
+    color: #3A3C42;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* 55555555555555555555555555555555555555 */
+div.another-nav-li{
+    position: absolute;
+    right: 15px;
+    top: 43px;
+    background-color: rgb(0, 45, 87);
+    padding: 10px;
+    border-radius: 15px;
+    display: none;
+    line-height: 42px;
+}
+
+div.another-nav-li li{
+    text-align: left;
+    list-style: none;
+    cursor: pointer;
+    border-bottom:2px solid #ffffff ;
+}
+
+div.another-nav-li li a{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* 55555555555555555555555555555555555555 */
+
+@media(max-width:1728px) {
+
+    /* v */
+    div.container {
+        max-width: 89.1%;
+    }
+}
+
+@media(max-width:1440px) {
+
+
+    /* v */
+    div.second-footer {
+        display: block;
+    }
+
+    /* v */
+    div.second-footer div,
+    div.third-footer div {
+        display: flex;
+    }
+
+    /* v */
+    div.second-footer div section,
+    div.third-footer div section {
+        width: 34.7%;
+        margin-left: 9.6%;
+    }
+
+    p.copyright {
+        margin-bottom: 13.9px;
+    }
+
+    footer {
+        padding: 41.03px 0 51px;
+    }
+
+    div.only-images img.need-margin {
+        margin-right: 6.2%;
+    }
+
+    div.second-footer div section p,
+    div.third-footer div section p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    div.third-footer div section p {
+        text-align: left;
+        width: 290px;
+    }
+
+    div.comp-description {
+        padding: 0 0 23.4px;
+    }
+
+    /* v */
+    div.container {
+        max-width: 88%;
+    }
+
+    div.time-none {
+        display: none;
+    }
+}
+
+@media(max-width:1400px) {
+
+    /* v */
+    .container {
+        max-width: 94%;
+    }
+}
+
+@media(max-width:1324px) {
+    div.container.another {
+        background: none;
+    }
+}
+
+@media(max-width:1260px) {
+
+    /* v */
+    header nav a {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    /* v */
+    header nav a.main-logo {
+        content: url(images/logo1440.png);
+    }
+
+    /* v */
+    /* footer,
+    html,
+    header,
+    main,
+    body {
+        width: 100%;
+    } */
+}
+
+@media(max-width:1119px) {
+    div.main-info {
+        justify-content: space-between;
+    }
+}
+
+@media(max-width:1023px) {
+
+    div.weapon-item.no-marg,
+    div.weapon-item.time-no-marg {
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:1000px) {
+
+    /* v */
+    div.smallmenu {
+        display: block;
+    }
+
+
+
+    /* v */
+    div.nav-li {
+        display: none;
+    }
+
+    /* v */
+    div.third-footer div section p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    div.second-footer {
+        display: none;
+    }
+
+    div.third-footer {
+        display: block;
+    }
+
+    /* v */
+    header nav a.main-logo {
+        content: url(images/logo1000.png);
+    }
+}
+
+@media(max-width:768px) {
+
+    /* v */
+    header nav a.main-logo {
+        content: url(images/logo768.png);
+    }
+
+    .column.image button {
+        width: 50%;
+    }
+
+    .column.image {
+        display: none;
+    }
+
+    .column.self {
+        margin: 0%;
+    }
+}
+
+/* @media(max-width:492px){
+    .self-photo{
+        display: none;
+    }
+} */
+
+@media(max-width:480px) {
+
+    /* v */
+    div.third-footer div section p {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    footer {
+        padding: 14px 0 23px;
+    }
+
+    div.container.special section p {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        max-width: 81%;
+        text-align: left;
+    }
+
+    div.footer-images {
+        display: flex;
+        flex-direction: column;
+        margin-right: 15px;
+    }
+
+    div.footer-images:first-child {
+        margin-bottom: 10px;
+    }
+
+    div.container {
+        max-width: 92.5%;
+    }
+
+    div.third-footer {
+        display: none;
+    }
+
+    div.container.special {
+        display: flex;
+    }
+
+    /* v */
+    header nav a.main-logo {
+        content: url(images/logo480.png);
+    }
+
+    .detail-descript section p,section.feature li{
+        font-size: 14px;
+    }
+
+    div.best-weapon, div.best-suit{
+        width: 90%;
+        margin: 0;
+    }
+}
+
+@media(max-width:390px){
+    div.plus-min section.feature, div.plus-min h2,div.plus-min, main h2.name, div.main-info, .detail-descript{
+        max-width: 90%;
+    }
+
+    div.detail-descript{
+        top: 0;
+    }
+
+    section.develop{
+        display: none;
+    }
+
+    img.self-photo{
+        margin-bottom: 41px;
+    }
+
+    /* div.general{
+        margin: 0;
+    } */
+}
+
+@media(max-width:360px) {
+
+    /* v */
+    header nav a.main-logo {
+        content: url(images/logo360.png);
+    }
+}
